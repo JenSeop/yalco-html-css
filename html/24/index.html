@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>입력받기6</h1>
+  <p>
+    <h2>message</h2>
+    <label for="message">메시지를 입력하세요.</label><br>
+    <textarea name="m" id="message" cols="50" rows="10">My name is jenseop.</textarea>
+
+    <h2>select, option</h2>
+    <label for="lang">언어</label>
+    <select id="lang">
+      <option value="">-- select --</option>
+      <option value="html">html</option>
+      <option value="css">css</option>
+      <option value="jsp">jsp</option>
+      <option value="ts">ts</option>
+    </select>
+
+    <h2>optgroup</h2>
+    <label for="shop">쇼핑</label>
+    <select name="" id="">
+      <optgroup label="fruit">
+        <option value="f_a">apple</option>
+        <option value="f_o">orange</option>
+        <option value="f_m">melon</option>
+      </optgroup>
+      <optgroup label="meet">
+        <option value="m_c">cow</option>
+        <option value="m_d">duck</option>
+        <option value="m_p">pig</option>
+      </optgroup>
+      <optgroup label="etc">
+        <option value="e_b">bag</option>
+        <option value="e_g">glove</option>
+        <option value="e_s">shoe</option>
+      </optgroup>
+    </select>
+
+    <h2>datalist</h2>
+    <label for="job">job</label>
+    <input id="job" list="jobs">
+    <datalist id="jobs">
+      <option value="designer"></option>
+      <option value="front-end"></option>
+      <option value="back-end"></option>
+      <option value="project manager"></option>
+    </datalist>
+  </p>
+</body>
+</html>
