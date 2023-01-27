@@ -1,0 +1,40 @@
+p{
+  text-decoration: none;
+  text-transform: none;
+}
+p.u{
+  text-decoration: underline;
+  text-transform: none;
+}
+p.l{
+  text-decoration: line-through;
+  text-transform: none;
+}
+p.ulo{
+  text-decoration: underline line-through overline;
+  text-transform: none;
+}
+p.w{
+  text-decoration: wavy underline tomato;
+  text-transform: none;
+}
+p.duo{
+  text-decoration: dotted underline overline #008;
+  text-transform: none;
+}
+p.dld{
+  text-decoration: dashed line-through deeppink 2px;
+  text-transform: none;
+}
+p.c{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+p.up{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+p.lo{
+  text-decoration: none;
+  text-transform: lowercase;
+}
