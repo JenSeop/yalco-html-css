@@ -1,0 +1,23 @@
+/* font-weight = normal, bold ~ */
+/* font-style = normal, italic, oblique ~ */
+
+p.n{
+  font-weight: normal;
+}
+p.b{
+  font-weight: bold;
+}
+p.i{
+  font-style: italic;
+}
+p.o{
+  font-style: oblique;
+}
+p.ni{
+  font-weight: normal;
+  font-style: italic;
+}
+p.bi{
+  font-weight: bold;
+  font-style: italic;
+}
