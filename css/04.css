@@ -1,0 +1,43 @@
+p.size10{
+  font-size: 10px;
+}
+p.size50{
+  font-size: 50px;
+}
+p.size100{
+  font-size: 100px;
+}
+
+p.percent10{
+  font-size: 10%;
+}
+p.percent50{
+  font-size: 50%;
+}
+p.percent100{
+  font-size: 100%;
+}
+
+p.em05{
+  font-size: 0.5em;
+}
+p.em1{
+  font-size: 1em;
+}
+p.em2{
+  font-size: 2em;
+}
+
+p.rem05{
+  font-size: 0.5rem;
+}
+p.rem1{
+  font-size: 1rem;
+}
+p.rem2{
+  font-size: 2rem;
+}
+
+p.pt{
+  font-size: 1pt;
+}
