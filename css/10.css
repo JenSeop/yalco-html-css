@@ -1,0 +1,14 @@
+p.first {
+  /* 글자색 */
+  color: yellow;
+
+  /* 배경색 */
+  background-color: #333;
+}
+p.second {
+  /* 글자색 */
+  color: green;
+
+  /* 배경색 */
+  background-color: #111;
+}
