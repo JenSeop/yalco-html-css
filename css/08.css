@@ -1,0 +1,9 @@
+p.first {
+  /* left, center, right, justify */
+  text-align: center;
+
+  letter-spacing: 1;
+  word-spacing: 0;
+  line-height: 1.5em;
+}
+p.second { text-indent: 0.8em; }
